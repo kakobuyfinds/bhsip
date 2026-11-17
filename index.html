@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Browse CAFANS shoes and streetwear in this independent HipoBuy spreadsheet. Compare reference prices, estimate your order total, and review size and QC checks.">
+  <meta name="robots" content="index,follow">
+  <title>HipoBuy spreadsheet | CAFANS Finds &amp; Order Budget</title>
+  <!-- Search reference pages: https://www.ssfinds.com/hipobuy-spreadsheet, https://hipo-buy.com/, https://repsheet.net/spreadsheet/hipobuy. These pages emphasize tutorials, QC and large catalogs. This page pairs a static CAFANS shortlist with an order budget calculator. Exact Google first-page positions were unavailable.
+  Catalog source: https://cafans.com/. Prices are reference values from the catalog snapshot.
+  Google and Bing submission is pending. Deploy index.html to the intended public URL, then request indexing in Google Search Console and submit the URL in Bing Webmaster Tools. -->
+  <style>
+    :root{color-scheme:light;--ink:#142b22;--muted:#465e52;--paper:#f4f7f0;--line:#d2ded4;--green:#163e2e}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    main,footer{width:min(70rem,calc(100% - 2rem));margin-inline:auto}
+    header{text-align:center;padding:clamp(3rem,9vw,7rem) 1rem;background:var(--green);color:#fff;border-radius:0 0 2rem 2rem}
+    h1,h2,h3,p{margin:0 0 .65em}
+    h1,h2{font-family:Georgia,serif;line-height:1.1}
+    h1{font-size:clamp(2.7rem,8vw,6rem);letter-spacing:-.05em}
+    h2{font-size:clamp(1.8rem,4vw,2.8rem)}
+    header p{max-width:38rem;margin-inline:auto;color:#e0ede2}
+    section{margin-block:3rem}
+    a{color:inherit;text-underline-offset:.22em}
+    a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #98610b;outline-offset:4px}
+    .actions{display:flex;justify-content:center;gap:.7rem;flex-wrap:wrap;margin-top:1.5rem}
+    .button{display:inline-block;padding:.7rem 1.15rem;border:1px solid #d9eacb;border-radius:100px;text-decoration:none;font-weight:700}
+    .primary{background:#e0efce;color:var(--ink)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:.85rem}
+    article,.budget{background:#fff;border:1px solid var(--line);border-radius:1rem;padding:1.15rem}
+    article{display:flex;flex-direction:column;gap:.5rem}
+    article h3{margin:0}
+    article a{align-self:flex-start;margin-top:auto}
+    small,.note{color:var(--muted)}
+    .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:.85rem;margin-block:1rem}
+    label{display:grid;gap:.3rem}
+    input{width:100%;padding:.65rem;border:1px solid #83998c;border-radius:.4rem;font:inherit;color:inherit}
+    output{font-weight:750}
+    details{border-top:1px solid var(--line);padding:.8rem 0}
+    summary{cursor:pointer;font-weight:700}
+    details p{margin:.55rem 0 0}
+    footer{padding:0 0 2rem;color:var(--muted)}
+  </style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/bhsip/">
+</head>
+<body>
+  <header>
+    <h1>HipoBuy spreadsheet</h1>
+    <p>Shortlist shoes and streetwear from CAFANS, check sizing, and estimate what your order will cost before you buy.</p>
+    <div class="actions">
+      <a class="button primary" href="https://cafans.com">HipoBuy spreadsheet</a>
+      <a class="button" href="https://cafans.com">Buy it now</a>
+    </div>
+  </header>
+  <main>
+    <section aria-labelledby="start-title">
+      <h2 id="start-title">Build your shortlist</h2>
+      <p>Open a CAFANS listing, record the exact size and color, and check whether HipoBuy accepts the source link. Save the seller’s measurement chart and return window so you can review your order against both when warehouse photos arrive.</p>
+    </section>
+    <section aria-labelledby="catalog-title">
+      <h2 id="catalog-title">CAFANS product catalog</h2>
+      <p class="note">Reference prices in USD. Open the listing to check current pricing, variants and availability.</p>
+      <div class="grid">
+        <article><small>Shoes</small><h3>Leather Slides</h3><strong>$62.36</strong><a href="https://cafans.com/goods-158791.html" aria-label="View Leather Slides on CAFANS">View on CAFANS</a></article>
+        <article><small>Shoes</small><h3>Platform Slides</h3><strong>$46.67</strong><a href="https://cafans.com/goods-158790.html" aria-label="View Platform Slides on CAFANS">View on CAFANS</a></article>
+        <article><small>Sweatshirts</small><h3>Sweatshirt</h3><strong>$27.50</strong><a href="https://cafans.com/goods-158792.html" aria-label="View Sweatshirt on CAFANS">View on CAFANS</a></article>
+        <article><small>T-shirts</small><h3>Unisex Embroidered Oversized T-Shirt</h3><strong>$32.64</strong><a href="https://cafans.com/goods-158200.html" aria-label="View Unisex Embroidered Oversized T-Shirt on CAFANS">View on CAFANS</a></article>
+        <article><small>Jackets</small><h3>Corteiz Jacket</h3><strong>$42.78</strong><a href="https://cafans.com/goods-158279.html" aria-label="View Corteiz Jacket on CAFANS">View on CAFANS</a></article>
+        <article><small>Jackets</small><h3>Jacket</h3><strong>$84.54</strong><a href="https://cafans.com/goods-158222.html" aria-label="View Jacket on CAFANS">View on CAFANS</a></article>
+      </div>
+    </section>
+    <section class="budget" aria-labelledby="budget-title">
+      <h2 id="budget-title">Estimate your order total</h2>
+      <p>Enter each amount in USD. Include any quoted agent fees and estimated import charges under other costs.</p>
+      <form id="budget">
+        <div class="fields">
+          <label>Item subtotal<input name="items" type="number" min="0" step="0.01" inputmode="decimal"></label>
+          <label>Domestic shipping<input name="domestic" type="number" min="0" step="0.01" inputmode="decimal"></label>
+          <label>International shipping<input name="international" type="number" min="0" step="0.01" inputmode="decimal"></label>
+          <label>Other costs<input name="fees" type="number" min="0" step="0.01" inputmode="decimal"></label>
+        </div>
+        <output aria-live="polite">Enter amounts to estimate your total.</output>
+        <noscript><p>Add the four amounts to calculate your estimate.</p></noscript>
+      </form>
+    </section>
+    <section aria-labelledby="faq-title">
+      <h2 id="faq-title">Before you order</h2>
+      <details>
+        <summary>What is a HipoBuy spreadsheet?</summary>
+        <p>It is a shopping shortlist that brings product links, reference prices and notes into one place. Both header buttons open CAFANS, where you can find product details and source links.</p>
+      </details>
+      <details>
+        <summary>What should I check in warehouse QC photos?</summary>
+        <p>Match the size label and color to your order, then check visible stitching and damage. For clothing, ask for a flat measurement photo if fit depends on a particular chest width or length. For shoes, compare both shoes and request an insole measurement if sizing is unclear.</p>
+      </details>
+      <details>
+        <summary>How should I compare shipping quotes?</summary>
+        <p>Compare quotes for the same destination and parcel. Check whether the line uses actual or volumetric weight and whether packing, insurance or import charges are included.</p>
+      </details>
+    </section>
+  </main>
+  <footer>Independent shopping guide. Product listings and reference prices come from CAFANS.</footer>
+  <script>
+    const budget = document.querySelector('#budget');
+    const amounts = Array.from(budget.querySelectorAll('input'));
+    const total = budget.querySelector('output');
+    const usd = new Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'});
+    budget.addEventListener('submit', event => event.preventDefault());
+    budget.addEventListener('input', () => {
+      if (!budget.checkValidity()) {
+        total.textContent = 'Enter valid, nonnegative amounts.';
+        return;
+      }
+      if (amounts.every(field => field.value === '')) {
+        total.textContent = 'Enter amounts to estimate your total.';
+        return;
+      }
+      const cents = amounts.reduce((sum, field) => sum + Math.round(Number(field.value) * 100), 0);
+      total.textContent = 'Estimated total ' + usd.format(cents / 100) + ' USD';
+    });
+  </script>
+</body>
+</html>
